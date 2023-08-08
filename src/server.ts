@@ -10,7 +10,7 @@ app.use(express.json())
 
 route.get('/', (req: Request, res: Response) => {
 
-    res.json({ message: "olá typescript"})
+    res.json({ message: "typescript"})
 
 })
 
